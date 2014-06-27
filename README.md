@@ -22,3 +22,11 @@ This plugin is not in the chrome store because I don't want to pay $5. So you mu
 - [ ] popup menu with choices of what styles to add
 - [ ] detect if page has no styles and automatically enable
 - [ ] remember which sites this plugin is enabled on
+
+##Credit Where Credit is Due
+
+I wrote almost none of the CSS, instead I borrowed parts from CSS frameworks and such I liked. Here is a partial list:
+
+* Typography from [Typeplate](http://typeplate.com/)
+* Links from [Ink](http://ink.sapo.pt/)
+* Forms and Tables from [Core.css](http://codepen.io/oknoblich/pen/xBpbe)

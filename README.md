@@ -20,7 +20,7 @@ This plugin is not in the chrome store because I don't want to pay $5. So you mu
 ##Future Improvements
 - [ ] load nice fonts from google
 - [ ] popup menu with choices of what styles to add
-- [ ] detect if page has no styles and automatically enable
+- [x] detect if page has no styles and automatically enable
 - [ ] remember which sites this plugin is enabled on
 
 ##Credit Where Credit is Due

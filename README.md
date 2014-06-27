@@ -10,7 +10,7 @@ Look at the difference:
 
 This plugin is not in the chrome store because I don't want to pay $5. So you must follow this slightly more complex procedure:
 
-1. Download the zip file and unzip it
+1. Download the [zip file](https://github.com/GabrielD42/fixThisSite/releases) and unzip it
 2. Open the Chrome menu and go to Settings > Extensions
 3. Enable Developer Mode
 4. Choose "Load unpacked extension"

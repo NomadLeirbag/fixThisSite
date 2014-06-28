@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("http://weloveiconfonts.com/api/?family=fontawesome");
 /*!
 TYPEPLATE
 URL ........... http://typeplate.com
@@ -322,7 +323,7 @@ pre, code {
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif; }
 
-a {
+a[href] {
   -webkit-transition: all 140ms ease-in-out;
   -moz-transition: all 140ms ease-in-out;
   -o-transition: all 140ms ease-in-out;
@@ -330,14 +331,14 @@ a {
   color: #6998c9;
   text-decoration: none; }
 
-a:hover {
+a[href]:hover {
   color: #007ed5;
   text-decoration: underline; }
 
-a:visited {
+a[href]:visited {
   color: gray; }
 
-a:active {
+a[href]:active {
   color: #f20000; }
 
 /*
@@ -364,7 +365,8 @@ input[type='text'] {
   background-color: #fff; }
 
 button[type='button'],
-button[type='submit'] {
+button[type='submit'],
+input[type='submit'] {
   padding: 10px 15px;
   font-weight: 600;
   color: #fff;
@@ -392,7 +394,7 @@ button[type='submit'] {
   display: block;
   width: 21px;
   height: 21px;
-  font-family: fontawesome;
+  font-family: 'fontAwesome';
   line-height: 19px;
   text-align: center;
   color: #fff;

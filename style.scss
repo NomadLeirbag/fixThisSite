@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   }
 
-a {
+a[href] {
   -webkit-transition: all 140ms ease-in-out;
   -moz-transition: all 140ms ease-in-out;
   -o-transition: all 140ms ease-in-out;
@@ -33,14 +33,14 @@ a {
   color: #6998c9;
   text-decoration: none;
   }
-a:hover {
+a[href]:hover {
   color: #007ed5;
   text-decoration: underline;
   }
-a:visited {
+a[href]:visited {
   color: gray;
   }
-a:active {
+a[href]:active {
   color: #f20000;
   }
 
@@ -71,53 +71,14 @@ input[type='text'] {
 }
 
 button[type='button'],
-button[type='submit'] {
+button[type='submit'],
+input[type='submit'] {
   padding: 10px 15px;
   font-weight: 600;
   color: #fff;
   border: 1px solid #37b;
   background-color: #59d;
   cursor: pointer;
-}
-
-/*
- * Custom Inputs
- **********************************************************/
-.custom {
-  display: inline-block;
-  position: relative;
-  margin: 0 20px 20px 0;
-}
-.custom label {
-  padding: 0 0 0 30px;
-  cursor: pointer;
-}
-.custom label:before {
-  content: '\f00c';
-  position: absolute;
-  top: -4px;
-  left: 0;
-  display: block;
-  width: 21px;
-  height: 21px;
-  font-family: fontawesome;
-  line-height: 19px;
-  text-align: center;
-  color: #fff;
-  border: 1px solid #aaa;
-  background: #fff;
-}
-.custom input {
-  position: absolute;
-  opacity: 0;
-}
-.custom input[type='radio'] ~ label:before {
-  content: '\f111';
-  font-size: 8px;
-  border-radius: 50%;
-}
-.custom input:checked ~ label:before {
-  color: #777;
 }
 
 /*
